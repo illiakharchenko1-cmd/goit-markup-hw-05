@@ -53,7 +53,7 @@
   border-radius: 50%;
   color: #f4f4fd;
   background-color: #4d5ae5;
-  transition: background-color 250ms ease-in-out;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link-footer:hover,
@@ -67,4 +67,82 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+
+.sub-form {
+  width: 253px;
+  height: 80px;
+  margin-left: 80px;
+}
+
+.sub-container {
+  display: flex;
+  width: 453px;
+  height: 40px;
+  gap: 24px;
+}
+
+.sub-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  padding-bottom: 16px;
+}
+
+.sub-email {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  width: 264px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #fff;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sub-email::placeholder {
+  color: #fff;
+}
+
+.sub-email:focus {
+  border-color: #4d5ae5;
+}
+
+.sub-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  max-width: 165px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.sub-button:hover,
+.sub-button:focus {
+  background-color: #31d0aa;
+}
+
+.sub-icon {
+  width: 24px;
+  height: 24px;
+  color: #fff;
 }

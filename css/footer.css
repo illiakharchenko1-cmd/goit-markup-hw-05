@@ -72,7 +72,7 @@
 .sub-form {
   width: 253px;
   height: 80px;
-  margin-left: 80px;
+  margin-left: 83px;
 }
 
 .sub-container {
@@ -111,7 +111,7 @@
 }
 
 .sub-email:focus {
-  border-color: #4d5ae5;
+  border-color: #31d0aa;
 }
 
 .sub-button {
